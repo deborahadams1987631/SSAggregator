@@ -1,0 +1,832 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-000",
+      "server": "gzdx.jcnode.top",
+      "server_port": 29482,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-001",
+      "server": "gzdx.jcnode.top",
+      "server_port": 39191,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "vn01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-002",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 43686,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "vn01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-003",
+      "server": "gzyd.jcnode.top",
+      "server_port": 47020,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "vn01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-004",
+      "server": "gzdx.jcnode.top",
+      "server_port": 42630,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk05.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-005",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 19682,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk05.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-006",
+      "server": "gzyd.jcnode.top",
+      "server_port": 38624,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk05.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-007",
+      "server": "gzdx.jcnode.top",
+      "server_port": 41063,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk04.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-008",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 32631,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk04.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-009",
+      "server": "gzyd.jcnode.top",
+      "server_port": 13734,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk04.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-010",
+      "server": "gzdx.jcnode.top",
+      "server_port": 41032,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-011",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 62525,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-012",
+      "server": "gzyd.jcnode.top",
+      "server_port": 64328,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-013",
+      "server": "gzdx.jcnode.top",
+      "server_port": 44283,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk02.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-014",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 40027,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk02.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-015",
+      "server": "gzyd.jcnode.top",
+      "server_port": 36554,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk02.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-016",
+      "server": "gzdx.jcnode.top",
+      "server_port": 19390,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-017",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 40716,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-018",
+      "server": "gzyd.jcnode.top",
+      "server_port": 27897,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-019",
+      "server": "gzdx.jcnode.top",
+      "server_port": 17217,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-020",
+      "server": "gzyd.jcnode.top",
+      "server_port": 51840,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-021",
+      "server": "gzdx.jcnode.top",
+      "server_port": 47492,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rctw01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-022",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 28606,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rctw01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-023",
+      "server": "gzyd.jcnode.top",
+      "server_port": 29679,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rctw01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-024",
+      "server": "gzdx.jcnode.top",
+      "server_port": 16614,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rctw02.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-025",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 28033,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rctw02.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-026",
+      "server": "gzyd.jcnode.top",
+      "server_port": 53826,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rctw02.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-028",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 34472,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-029",
+      "server": "gzyd.jcnode.top",
+      "server_port": 52702,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg03.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-030",
+      "server": "gzyd.jcnode.top",
+      "server_port": 28474,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-031",
+      "server": "gzdx.jcnode.top",
+      "server_port": 27880,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.229.236-032",
+      "server": "gzdx01.jcnode.top",
+      "server_port": 45920,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-033",
+      "server": "gzdx.jcnode.top",
+      "server_port": 50173,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "us2.ckcloud.info"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇳CN-183.56.247.206-034",
+      "server": "gzdx.jcnode.top",
+      "server_port": 30725,
+      "uuid": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/fly",
+        "headers": {
+          "Host": "gzdx.jcnode.top"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-035",
+      "server": "gzdx.jcnode.top",
+      "server_port": 61802,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "us04.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-036",
+      "server": "gzyd.jcnode.top",
+      "server_port": 10340,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "us04.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-037",
+      "server": "gzdx.jcnode.top",
+      "server_port": 48479,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "id01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-125.88.210.67-038",
+      "server": "gzyd.jcnode.top",
+      "server_port": 56586,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "id01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-039",
+      "server": "gzdx.jcnode.top",
+      "server_port": 48426,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "aus01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-040",
+      "server": "gzdx.jcnode.top",
+      "server_port": 62951,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "de01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-58.247.254.191-041",
+      "server": "gzyd02.jcnode.top",
+      "server_port": 22122,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "de01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.56.247.206-042",
+      "server": "gzdx.jcnode.top",
+      "server_port": 59832,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-58.247.254.191-043",
+      "server": "gzyd02.jcnode.top",
+      "server_port": 36403,
+      "password": "f441a2b0-31ef-490d-bd91-9b1cd960f4ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk01.ckcloud.info"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-044",
+      "server": "scloud15.jafiyun.world",
+      "server_port": 22015,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud15.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-045",
+      "server": "scloud16.jafiyun.world",
+      "server_port": 22016,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud16.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-120.240.82.60-046",
+      "server": "scloud41.jafiyun.world",
+      "server_port": 22041,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud41.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-120.240.82.60-047",
+      "server": "scloud42.jafiyun.world",
+      "server_port": 22042,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud42.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-120.240.82.60-048",
+      "server": "scloud43.jafiyun.world",
+      "server_port": 22043,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud43.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-049",
+      "server": "scloud52.jafiyun.world",
+      "server_port": 22052,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud52.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-050",
+      "server": "scloud53.jafiyun.world",
+      "server_port": 22053,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud53.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-051",
+      "server": "scloud54.jafiyun.world",
+      "server_port": 22054,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud54.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-120.240.82.60-052",
+      "server": "scloud55.jafiyun.world",
+      "server_port": 22055,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud55.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-053",
+      "server": "scloud56.jafiyun.world",
+      "server_port": 22056,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud56.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-054",
+      "server": "scloud57.jafiyun.world",
+      "server_port": 22057,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud57.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-055",
+      "server": "scloud58.jafiyun.world",
+      "server_port": 22058,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud58.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-056",
+      "server": "scloud59.jafiyun.world",
+      "server_port": 22059,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud59.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-057",
+      "server": "scloud60.jafiyun.world",
+      "server_port": 22060,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud60.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-058",
+      "server": "scloud44.jafiyun.ltd",
+      "server_port": 22044,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud44.jafiyun.ltd"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-183.249.20.192-059",
+      "server": "scloud45.jafiyun.world",
+      "server_port": 22045,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud45.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-120.240.82.60-060",
+      "server": "scloud47.jafiyun.world",
+      "server_port": 22047,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud47.jafiyun.world"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇳CN-120.240.82.60-061",
+      "server": "scloud50.jafiyun.ltd",
+      "server_port": 22050,
+      "password": "05bf7037-a3d0-3d4a-96ea-fc4787f798e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "scloud50.jafiyun.ltd"
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇳CN-183.56.247.206-000",
+        "🇨🇳CN-183.56.247.206-001",
+        "🇨🇳CN-183.56.229.236-002",
+        "🇨🇳CN-125.88.210.67-003",
+        "🇨🇳CN-183.56.247.206-004",
+        "🇨🇳CN-183.56.229.236-005",
+        "🇨🇳CN-125.88.210.67-006",
+        "🇨🇳CN-183.56.247.206-007",
+        "🇨🇳CN-183.56.229.236-008",
+        "🇨🇳CN-125.88.210.67-009",
+        "🇨🇳CN-183.56.247.206-010",
+        "🇨🇳CN-183.56.229.236-011",
+        "🇨🇳CN-125.88.210.67-012",
+        "🇨🇳CN-183.56.247.206-013",
+        "🇨🇳CN-183.56.229.236-014",
+        "🇨🇳CN-125.88.210.67-015",
+        "🇨🇳CN-183.56.247.206-016",
+        "🇨🇳CN-183.56.229.236-017",
+        "🇨🇳CN-125.88.210.67-018",
+        "🇨🇳CN-183.56.247.206-019",
+        "🇨🇳CN-125.88.210.67-020",
+        "🇨🇳CN-183.56.247.206-021",
+        "🇨🇳CN-183.56.229.236-022",
+        "🇨🇳CN-125.88.210.67-023",
+        "🇨🇳CN-183.56.247.206-024",
+        "🇨🇳CN-183.56.229.236-025",
+        "🇨🇳CN-125.88.210.67-026",
+        "🇨🇳CN-183.56.229.236-028",
+        "🇨🇳CN-125.88.210.67-029",
+        "🇨🇳CN-125.88.210.67-030",
+        "🇨🇳CN-183.56.247.206-031",
+        "🇨🇳CN-183.56.229.236-032",
+        "🇨🇳CN-183.56.247.206-033",
+        "🇨🇳CN-183.56.247.206-034",
+        "🇨🇳CN-183.56.247.206-035",
+        "🇨🇳CN-125.88.210.67-036",
+        "🇨🇳CN-183.56.247.206-037",
+        "🇨🇳CN-125.88.210.67-038",
+        "🇨🇳CN-183.56.247.206-039",
+        "🇨🇳CN-183.56.247.206-040",
+        "🇨🇳CN-58.247.254.191-041",
+        "🇨🇳CN-183.56.247.206-042",
+        "🇨🇳CN-58.247.254.191-043",
+        "🇨🇳CN-183.249.20.192-044",
+        "🇨🇳CN-183.249.20.192-045",
+        "🇨🇳CN-120.240.82.60-046",
+        "🇨🇳CN-120.240.82.60-047",
+        "🇨🇳CN-120.240.82.60-048",
+        "🇨🇳CN-183.249.20.192-049",
+        "🇨🇳CN-183.249.20.192-050",
+        "🇨🇳CN-183.249.20.192-051",
+        "🇨🇳CN-120.240.82.60-052",
+        "🇨🇳CN-183.249.20.192-053",
+        "🇨🇳CN-183.249.20.192-054",
+        "🇨🇳CN-183.249.20.192-055",
+        "🇨🇳CN-183.249.20.192-056",
+        "🇨🇳CN-183.249.20.192-057",
+        "🇨🇳CN-183.249.20.192-058",
+        "🇨🇳CN-183.249.20.192-059",
+        "🇨🇳CN-120.240.82.60-060",
+        "🇨🇳CN-120.240.82.60-061"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "10m"
+    },
+    {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+        "auto",
+        "🇨🇳CN-183.56.247.206-000",
+        "🇨🇳CN-183.56.247.206-001",
+        "🇨🇳CN-183.56.229.236-002",
+        "🇨🇳CN-125.88.210.67-003",
+        "🇨🇳CN-183.56.247.206-004",
+        "🇨🇳CN-183.56.229.236-005",
+        "🇨🇳CN-125.88.210.67-006",
+        "🇨🇳CN-183.56.247.206-007",
+        "🇨🇳CN-183.56.229.236-008",
+        "🇨🇳CN-125.88.210.67-009",
+        "🇨🇳CN-183.56.247.206-010",
+        "🇨🇳CN-183.56.229.236-011",
+        "🇨🇳CN-125.88.210.67-012",
+        "🇨🇳CN-183.56.247.206-013",
+        "🇨🇳CN-183.56.229.236-014",
+        "🇨🇳CN-125.88.210.67-015",
+        "🇨🇳CN-183.56.247.206-016",
+        "🇨🇳CN-183.56.229.236-017",
+        "🇨🇳CN-125.88.210.67-018",
+        "🇨🇳CN-183.56.247.206-019",
+        "🇨🇳CN-125.88.210.67-020",
+        "🇨🇳CN-183.56.247.206-021",
+        "🇨🇳CN-183.56.229.236-022",
+        "🇨🇳CN-125.88.210.67-023",
+        "🇨🇳CN-183.56.247.206-024",
+        "🇨🇳CN-183.56.229.236-025",
+        "🇨🇳CN-125.88.210.67-026",
+        "🇨🇳CN-183.56.229.236-028",
+        "🇨🇳CN-125.88.210.67-029",
+        "🇨🇳CN-125.88.210.67-030",
+        "🇨🇳CN-183.56.247.206-031",
+        "🇨🇳CN-183.56.229.236-032",
+        "🇨🇳CN-183.56.247.206-033",
+        "🇨🇳CN-183.56.247.206-034",
+        "🇨🇳CN-183.56.247.206-035",
+        "🇨🇳CN-125.88.210.67-036",
+        "🇨🇳CN-183.56.247.206-037",
+        "🇨🇳CN-125.88.210.67-038",
+        "🇨🇳CN-183.56.247.206-039",
+        "🇨🇳CN-183.56.247.206-040",
+        "🇨🇳CN-58.247.254.191-041",
+        "🇨🇳CN-183.56.247.206-042",
+        "🇨🇳CN-58.247.254.191-043",
+        "🇨🇳CN-183.249.20.192-044",
+        "🇨🇳CN-183.249.20.192-045",
+        "🇨🇳CN-120.240.82.60-046",
+        "🇨🇳CN-120.240.82.60-047",
+        "🇨🇳CN-120.240.82.60-048",
+        "🇨🇳CN-183.249.20.192-049",
+        "🇨🇳CN-183.249.20.192-050",
+        "🇨🇳CN-183.249.20.192-051",
+        "🇨🇳CN-120.240.82.60-052",
+        "🇨🇳CN-183.249.20.192-053",
+        "🇨🇳CN-183.249.20.192-054",
+        "🇨🇳CN-183.249.20.192-055",
+        "🇨🇳CN-183.249.20.192-056",
+        "🇨🇳CN-183.249.20.192-057",
+        "🇨🇳CN-183.249.20.192-058",
+        "🇨🇳CN-183.249.20.192-059",
+        "🇨🇳CN-120.240.82.60-060",
+        "🇨🇳CN-120.240.82.60-061"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "final": "proxy"
+  }
+}
