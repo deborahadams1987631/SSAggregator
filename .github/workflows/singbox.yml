@@ -1,0 +1,33 @@
+name: Sing-box Convert
+
+on:
+  workflow_run:
+    workflows: ["Collect", "Airport Collect"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Convert Eternity to sing-box JSON
+        run: |
+          python ./utils/singbox_convert.py ./Eternity.txt ./Eternity.json
+          python ./utils/singbox_convert.py ./EternityAir.txt ./EternityAir.json
+      - name: Commit sing-box JSON
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add Eternity.json EternityAir.json
+          git diff --cached --quiet || git commit -m "sing-box: update $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin master
