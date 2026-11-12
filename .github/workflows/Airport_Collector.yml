@@ -46,7 +46,11 @@ jobs:
           git checkout master
           # git add README.md
           # git add ./utils/Country.mmdb
-          git commit -m "♻️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping."
+          else
+            git commit -m "♻️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+          fi
       - name: Push Changes
         uses: ad-m/github-push-action@master
         with:
@@ -68,7 +72,11 @@ jobs:
           git add ./sub
           # git add ./sub/airport_sub_merge.txt
           # git add ./sub/airport_merge_base64.txt
-          git commit -m "♻️ $(date '+%Y-%m-%d %H:%M:%S') Tested"
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping."
+          else
+            git commit -m "♻️ $(date '+%Y-%m-%d %H:%M:%S') Tested"
+          fi
       - name: Push Change
         uses: ad-m/github-push-action@master
         with:
@@ -91,7 +99,11 @@ jobs:
           git add LogInfoAir.txt
           # git add Eternity
           # git add README.md
-          git commit -m "♻️ $(date '+%Y-%m-%d %H:%M:%S') Filtered"
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping."
+          else
+            git commit -m "♻️ $(date '+%Y-%m-%d %H:%M:%S') Filtered"
+          fi
       - name: Push Change
         uses: ad-m/github-push-action@master
         with:
